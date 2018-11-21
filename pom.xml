@@ -6,7 +6,7 @@
     <groupId>services.ozzy</groupId>
     <artifactId>coinprocessor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>coinprocessor</name>
     <description>Process/sell/auto-hodl coins through Monero RPC wallet and Binance exchange</description>
@@ -17,6 +17,10 @@
         <version>2.1.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>monero-java-rpc</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

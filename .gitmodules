@@ -1,0 +1,4 @@
+[submodule "monero-java-rpc"]
+	path = monero-java-rpc
+	url = https://github.com/ozgunawesome/monero-java-rpc.git
+	branch = master
