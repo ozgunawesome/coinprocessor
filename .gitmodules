@@ -1,8 +1,8 @@
 [submodule "monero-java-rpc"]
-	path = monero-java-rpc
+	path = submodules/monero-java-rpc
 	url = https://github.com/ozgunawesome/monero-java-rpc.git
 	branch = master
 [submodule "binance-java-api"]
-	path = binance-java-api
+	path = submodules/binance-java-api
 	url = https://github.com/binance-exchange/binance-java-api.git
 	branch = master

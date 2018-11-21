@@ -19,8 +19,8 @@
     </parent>
 
     <modules>
-        <module>monero-java-rpc</module>
-        <module>binance-java-api</module>
+        <module>submodules/binance-java-api</module>
+        <module>submodules/monero-java-rpc</module>
     </modules>
 
     <properties>
