@@ -1,0 +1,16 @@
+# service descriptor for systemd service
+# Make sure the run-as user has write access to /var/log
+
+[Unit]
+Description=coinprocessor
+After=syslog.target
+
+[Service]
+User=monero
+ExecStart=/path/to/coinprocessor/coinprocessor.jar
+SuccessExitStatus=143
+# put your custom .conf and .properties files here:
+WorkingDirectory=/path/to/coinprocessor
+
+[Install]
+WantedBy=multi-user.target
