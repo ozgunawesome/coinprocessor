@@ -20,6 +20,7 @@
 
     <modules>
         <module>monero-java-rpc</module>
+        <module>binance-java-api</module>
     </modules>
 
     <properties>
