@@ -65,7 +65,7 @@ public class MoneroRpcWalletTasks {
         }
     }
 
-    @Scheduled(fixedRate = 60000 * 10)
+    @Scheduled(fixedRate = 60000 * 60)
     public void printBalanceToLog() {
 
         log.info("Monero wallet balance: {} XMR total, {} XMR unlocked",

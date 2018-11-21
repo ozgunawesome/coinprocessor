@@ -79,7 +79,7 @@ public class BinanceTasks {
         }
     }
 
-    @Scheduled(fixedRate = 10 * 60000)
+    @Scheduled(fixedRate = 60 * 60000)
     void printBtcBalance() {
         AssetBalance assetBalance = client.getAccount().getAssetBalance("BTC");
         log.info("Bitcoin balance: {} BTC total, {} BTC free", assetBalance.getLocked(), assetBalance.getFree());
